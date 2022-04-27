@@ -1,0 +1,32 @@
+{
+  "name": "UploadIntegration",
+  "description": "Make your upload with beauty <3.",
+  "version": "3.0.0",
+  "author": "D0wzy, Freiik",
+  "main": "src/app.js",
+  "keywords": [
+    "screenshot",
+    "video",
+    "audio",
+    "embed",
+    "integration",
+    "upload",
+    "UploadIntegration",
+    "expressjs",
+    "website"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "generate": "node ./src/generate.js"
+  },
+  "dependencies": {
+    "ejs": "latest",
+    "express": "latest",
+    "formidable": "latest",
+    "i18n": "latest",
+    "moment-timezone": "latest",
+    "readline": "latest",
+    "self-reload-json": "latest"
+  }
+}
